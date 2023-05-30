@@ -8,7 +8,7 @@ fn main() {
         .unwrap();
 
     // format generated files
-    Command::new("cargo").args(&["fmt"]).status().unwrap();
+    Command::new("cargo").args(["fmt"]).status().unwrap();
 
     // rerun build.rs if proto files change
     println!("cargo:rerun-if-changed=protos/initial.proto");
