@@ -1,5 +1,21 @@
-# Initial for rust project
-- Before start your project, you'll make some config for the project.
-- Maybe you will write a doc for the project use rfcs/template.md.
-- .pre-commit-config help you to check your code before commit.
-- You can write your github Action with .github/workflows/..
+![](https://github.com/laizhenxing/initial-rust/workflows/build/badge.svg)
+
+# {{ project-name }}
+
+description about the crate
+
+## How to use it
+
+```bash
+$ cargo generate --git https://github.com/laizhenxing/initial-rust
+```
+
+Have fun with this crate!
+
+## License
+
+This project is distributed under the terms of MIT.
+
+See [LICENSE](LICENSE.md) for details.
+
+Copyright 2023 xingxiaoli 
